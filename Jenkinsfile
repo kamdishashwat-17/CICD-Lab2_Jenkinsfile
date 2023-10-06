@@ -4,7 +4,7 @@ pipeline {
 	maven 'MAVEN_HOME'
 	}
 	stages {
-		stage('Stage1: Hii Clean Stage 1  testing') {
+		stage('Stage1: Hiii Clean Stage 1  testing') {
 			steps {
 				bat 'mvn clean'
 				}
