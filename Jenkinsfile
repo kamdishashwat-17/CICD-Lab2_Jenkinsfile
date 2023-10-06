@@ -9,11 +9,7 @@ pipeline {
 				bat 'mvn clean'
 				}
 			}
-		stage ('Stage 2: Test Stage') {
-			steps {
-				bat 'mvn test'
-				}
-			}
+	
 		stage ('Stage 3: My Package'){
 			steps {
 				bat 'mvn package'
